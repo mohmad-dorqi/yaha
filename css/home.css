@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'vazer';
+    src: url('/font/Vazirmatn-RD-Light.ttf') format('truetype'),
+    url('/font/Vazirmatn-RD-Light.woff2')format('woff');
+  }
+  
+  body{
+      
+     font-family: 'vazer';
+        background-color: #E8EBEE;
+  }
+  .title{
+   top: 100px;
+   right: 20px;
+
+
+  }
+
+ .subtitle{
+    top: 250px;
+    font-weight: 700;
+ }

@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: 'vazer';
+  src: url('/font/Vazirmatn-RD-Light.ttf') format('truetype'),
+  url('/font/Vazirmatn-RD-Light.woff2')format('woff');
+}
+
+body{
+    
+   font-family: 'vazer';
+      background-color: #E8EBEE;
+}
+
+
+.start{
+  width: 373px;
+  height: 52px;
+  background: #0066C5;
+  border-radius: 10px;
+
+}
+.astart{
+  width: 93px;
+  height: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 22px;
+   line-height: 28px;
+   color: #FFFFFF;
+   left: 140px;
+   top: 10px;
+   
+   
+}
+.astart:hover{
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
