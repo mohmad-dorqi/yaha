@@ -113,17 +113,17 @@ body {
 
 .TakhasosContainer {
    position: relative;
-   left:219x ;
+   left: 219x;
    top: 432px;
-   
+
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   
+
 }
 
 .Takhasos {
-  position: relative;
+   position: relative;
    width: 100px;
    height: 75px;
    margin: 5px;
@@ -159,6 +159,35 @@ body {
 
 }
 
+.text {
+   top: 620px;
+   left: 130px;
+   font-weight: bold;
+   position: absolute;
+}
+.docContainer{
+   position: relative;
+   left:  30px;
+   top: 600px;
+  
+ 
+   
+}
+
+.doctors {
+   background-color: #FFFFFF;
+  
+   width: 388px;
+   height: 82px;
+   
+   
+
+   background: #FFFFFF;
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+}
+
+
 @media (max-width:575px) {
    .nav {
       display: none;
@@ -187,10 +216,12 @@ body {
    .Search::placeholder {
       margin-left: 30px;
    }
-   .TakhasosContainer{
+
+   .TakhasosContainer {
       flex-wrap: wrap;
-    
+
    }
+
    .Takhasos {
       position: relative;
       margin: 5px;
@@ -200,6 +231,9 @@ body {
       border-radius: 10px;
    }
 
+   .text {
+      left: 30px;
+   }
 
 }
 
@@ -214,13 +248,13 @@ body {
    }
 
    .Search {
-     margin-top: 20px;
+      margin-top: 20px;
       width: 300px;
       left: 220px;
 
    }
 
-   .Takhasos{
+   .Takhasos {
       position: relative;
       margin: 5px;
       width: 100px;
@@ -239,26 +273,44 @@ body {
       margin-top: 10px;
    }
 
-
+   .text {
+      top: 720px;
+      left: 125px;
+   }
 
 
 }
-@media (min-width:769px) and (max-width:878px){
+
+@media (min-width:769px) and (max-width:878px) {
 
 
    .searchIc {
       left: 223px;
       top: 310px;
    }
+
    .Search {
       margin-top: 20px;
-       width: 300px;
-       left: 220px;
- 
-    }
-    .containerCategory {
-      left: 110px;
+      width: 300px;
+      left: 220px;
+
+   }
+
+   .containerCategory {
+      left: 50px;
       top: 420px;
 
+   }
+
+   .text {
+      left: 50px;
+   }
+
+   .doctor {
+      left: 5px;
+   }
+
+   .title {
+      left: 5px;
    }
 }
