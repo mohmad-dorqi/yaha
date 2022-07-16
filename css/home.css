@@ -42,7 +42,7 @@ body {
       border-radius: 5pX;
       box-shadow: 5px 4px 10px 1px #696969; */
    box-sizing: border-box;
-
+   background-color: #E8EBEE;
    position: absolute;
    width: 388px;
    height: 45px;
@@ -102,7 +102,7 @@ body {
 
 .containerCategory {
    top: 420px;
-   left: 125px;
+   left: 130px;
    font-weight: bold;
    position: absolute;
 }
@@ -127,7 +127,7 @@ body {
    width: 100px;
    height: 75px;
    margin: 5px;
-   background: #FFCC8A;
+   background: #D2D5FB;
    border-radius: 10px;
 }
 
@@ -242,4 +242,23 @@ body {
 
 
 
+}
+@media (min-width:769px) and (max-width:878px){
+
+
+   .searchIc {
+      left: 223px;
+      top: 310px;
+   }
+   .Search {
+      margin-top: 20px;
+       width: 300px;
+       left: 220px;
+ 
+    }
+    .containerCategory {
+      left: 110px;
+      top: 420px;
+
+   }
 }
