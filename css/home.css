@@ -14,6 +14,7 @@ body {
    top: 100px;
    left: 20px;
    font-weight: bold;
+   position: absolute;
 
 
 }
@@ -22,6 +23,7 @@ body {
    top: 150px;
    left: 20px;
    font-weight: bold;
+   position: absolute;
 
 
 }
@@ -44,21 +46,34 @@ body {
    position: absolute;
    width: 388px;
    height: 45px;
-   left: 280px;
+   left: 480px;
    top: 276px;
-
+   text-align: left;
    border: 1px solid #E8EBEE;
    box-shadow: 0px 5px 10px 0.25px #1D3557;
    border-radius: 10px;
 
 }
 
+.Search::placeholder {
+   margin-left: 20px;
+}
+
+
+
 .searchIc {
    position: absolute;
    width: 21px;
    height: 21px;
-   left: 285px;
+   left: 480px;
    top: 288px;
+}
+
+.nav {
+   margin-top: .75rem;
+   display: flex;
+   justify-content: space-between;
+
 }
 
 .nav img {
@@ -73,18 +88,158 @@ body {
    list-style: none;
 }
 
+.mobnav {
+   display: none;
+}
+
 .nav li {
    padding: 10px;
 }
 
-.containerCategory {
-   position: absolute;
-   width: 74px;
-   height: 28px;
-   left: 220px;
-   top: 430px;
-    
+.titleContaner {
+   position: relative;
 }
-.containerCategory h1{
+
+.containerCategory {
+   top: 420px;
+   left: 125px;
    font-weight: bold;
+   position: absolute;
+}
+
+.containerCategory h1 {
+   font-weight: bold;
+}
+
+.TakhasosContainer {
+   position: relative;
+   left:219x ;
+   top: 432px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+
+.Takhasos {
+  position: relative;
+   width: 100px;
+   height: 75px;
+   margin: 5px;
+   background: #FFCC8A;
+   border-radius: 10px;
+}
+
+.Takhasos p {
+   position: absolute;
+   width: 66px;
+   height: 19px;
+   left: 16px;
+   top: 20px;
+
+   font-family: 'vazer';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 19px;
+
+
+   text-transform: capitalize;
+
+   color: #000000;
+}
+
+.Takhasos img {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 40px;
+   top: 45px;
+
+}
+
+@media (max-width:575px) {
+   .nav {
+      display: none;
+
+   }
+
+   .containerCategory {
+      top: 380px;
+      left: 30px;
+      font-weight: bold;
+
+
+   }
+
+   .Search {
+
+      width: 300px;
+      left: 30px;
+
+   }
+
+   .searchIc {
+      left: 32px;
+   }
+
+   .Search::placeholder {
+      margin-left: 30px;
+   }
+   .TakhasosContainer{
+      flex-wrap: wrap;
+    
+   }
+   .Takhasos {
+      position: relative;
+      margin: 5px;
+      width: 100px;
+      height: 75px;
+      background: #FFCC8A;
+      border-radius: 10px;
+   }
+
+
+}
+
+
+@media (min-width:576px) and (max-width:768px) {
+
+
+   .containerCategory {
+      left: 125px;
+      top: 420px;
+
+   }
+
+   .Search {
+     margin-top: 20px;
+      width: 300px;
+      left: 220px;
+
+   }
+
+   .Takhasos{
+      position: relative;
+      margin: 5px;
+      width: 100px;
+      height: 75px;
+      background: #FFCC8A;
+      border-radius: 10px;
+   }
+
+   .searchIc {
+      left: 223px;
+      top: 310px;
+   }
+
+   .Search::placeholder {
+      margin-left: 25px;
+      margin-top: 10px;
+   }
+
+
+
+
 }
