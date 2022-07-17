@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'vazer';
+    src: url('/font/Vazirmatn-RD-Light.ttf') format('truetype'),
+        url('/font/Vazirmatn-RD-Light.woff2')format('woff');
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'vazer';
+
+}
+
+.container {
+    background-color: #596BE0;
+    height: 100vh;
+
+}
+
+.container img {
+    position: absolute;
+    left: 520px;
+    height: 300px;
+}
+
+.container a img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+
+}
+
+.infoContainer {
+
+
+    position: absolute;
+    width: 1141px;
+    height: 100vh;
+    left: 105px;
+    top: 310px;
+
+    background: #E8EBEE;
+    border-radius: 50px 50px 0px 0px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.left p{
+   position: absolute;
+   top: 30px;
+   left: 24px;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+
+.right {
+    position: relative;
+    display: flex;
+    top: 28px;
+    right: 24px;
+    background-color: #D2D5FB;
+    border-radius: 5px;
+    color: #0c18c4;
+    margin: 5px;
+    width: 28px;
+    height: 28px;
+}
+
+.right img{
+    position: absolute;
+   top: 3px;
+   left: 4px;
+   height: 20px;
+   width: 20px;
+  
+    
+   
+}
