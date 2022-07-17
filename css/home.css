@@ -56,7 +56,7 @@ body {
 }
 
 .Search::placeholder {
-   margin-left: 20px;
+   padding: 20px;
 }
 
 
@@ -165,26 +165,54 @@ body {
    font-weight: bold;
    position: absolute;
 }
-.docContainer{
+
+.docContainer {
    position: relative;
-   left:  30px;
+   left: 30px;
    top: 600px;
-  
- 
-   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+
+
 }
 
 .doctors {
    background-color: #FFFFFF;
-  
-   width: 388px;
+   width: 320px;
    height: 82px;
-   
-   
+   margin: 5px;
+   position: relative;
 
    background: #FFFFFF;
    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
    border-radius: 10px;
+}
+
+.doctors img {
+   position: absolute;
+   top: 21px;
+   left: 18px;
+}
+
+.doctors p {
+   position: absolute;
+   width: 118px;
+   height: 25px;
+   left:80px;
+   top: 30px;
+
+   font-family: 'vazer';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 25px;
+   /* identical to box height */
+
+   text-transform: capitalize;
+
+   color: #000000;
 }
 
 
@@ -201,6 +229,7 @@ body {
 
 
    }
+   
 
    .Search {
 
