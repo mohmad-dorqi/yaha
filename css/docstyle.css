@@ -246,6 +246,18 @@ body {
 
 
     }
+    .personContainer {
+        display: block;
+       align-items: center;
+    }
+    .personContainer input {
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+    .infoContainer{
+        height: 170vh;
+    }
+    
 }
 
 @media (min-width:576px) and (max-width:991px) {
@@ -274,5 +286,31 @@ body {
         left: 10px;
 
     }
+    .personContainer {
+        display: block;
+       align-items: center;
+    }
+    .personContainer input{
+        margin: 10px;
+    }
 
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .personContainer input{
+        margin-left: 80px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .personContainer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .personContainer input{
+        margin-right: 80px;
+        margin-bottom: 15px;
+    }
 }
