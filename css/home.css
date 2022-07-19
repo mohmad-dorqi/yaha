@@ -9,6 +9,10 @@ body {
    font-family: 'vazer';
    background-color: #E8EBEE;
 }
+a{
+   text-decoration: none;
+   color: #000000;
+}
 
 .title {
    top: 100px;
