@@ -216,6 +216,7 @@ body {
 }
 
 
+
 @media (max-width:575px) {
    .nav {
       display: none;
@@ -263,6 +264,7 @@ body {
    .text {
       left: 30px;
    }
+
 
 }
 
