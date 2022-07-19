@@ -251,7 +251,7 @@ body {
        align-items: center;
     }
     .personContainer input {
-        margin-left: 45px;
+        margin-left: 70px;
         margin-bottom: 10px;
     }
     .infoContainer{
@@ -311,6 +311,6 @@ body {
     
     .personContainer input{
         margin-right: 80px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 }
